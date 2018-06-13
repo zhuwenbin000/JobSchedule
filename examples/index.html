@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>index</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="./index.css">
+	</head>
+	<body>
+		<script src="../build/three.js"></script>
+		<script src="js/libs/tween.min.js"></script>
+		<script src="js/libs/jquery-3.2.1.js"></script>
+		<script src="js/controls/TrackballControls.js"></script>
+		<script src="js/renderers/CSS3DRenderer.js"></script>
+
+		<div id="info">臭一波臭一波臭一波臭一波臭一波臭一波</div>
+		<div id="container"></div>
+		<div id="menu">
+			<!-- <button id="table">TABLE</button> -->
+			<button id="grid">GRID</button>
+			<button id="sphere">SPHERE</button>
+			<button id="helix">HELIX</button>
+		</div>
+		<div id="form">
+			<div class="input-wrap"><div class="label">jobName</div><input type="text" id="jobName"></div>
+			<div class="input-wrap"><div class="label">jobGroup</div><input type="text" id="jobGroup"></div>
+			<div class="input-wrap"><div class="label">jobDescription</div><input type="text" id="jobDescription"></div>
+			<div class="input-wrap"><div class="label">jobStatus</div><input type="text" id="jobStatus"></div>
+			<div class="input-wrap"><div class="label">cronExpression</div><input type="text" id="cronExpression"></div>
+			<div class="input-wrap"><div class="label">createTime</div><input type="text" id="createTime"></div>
+			<div class="cancel" id="cancel">取消</div>
+			<div class="save" id="save">保存</div>
+		</div>
+		<script src="./index.js"></script>
+	</body>
+</html>
